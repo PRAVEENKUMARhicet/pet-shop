@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar-brand h3{
+    margin-left: 10px;
+    padding-top: 10px;
+    color: rgb(0, 107, 189);
+}
+.navbar-brand img{
+    height: 60px;
+}
+
+.nav-item img{
+    height: 20px;
+    margin-left: 20px;
+}
+
+#Categories{
+    margin-left: 20px;
+    color: rgb(0, 107, 189);
+}
+
+#category a:hover{
+    background-color: rgb(0, 107, 189);
+    color: white;
+}
+
+#nav{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.header{
+    background-color: rgb(37, 37, 37);
+    font-size: large;
+}
+
+.dropdown-item img{
+    display: flex;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#breeds.dropdown-menu.show{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+#category.dropdown-menu.show{
+    display: block;
+}
+
+.offer{
+    background-image: url(assest/offer.png);
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.offer h1{
+    color: rgb(255, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.offer h2{
+    color: rgb(156, 209, 50);
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+.offer h3{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.offer{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+.offer button{
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.offer button:hover{
+    background-color: white;
+    color: red;
+}
+
+#carouselExampleSlidesOnly img{
+    height: 80vh;
+    border-radius: 20px;
+}
+#carouselExampleSlidesOnly{
+    width: 95%;
+    margin: 10px 40px; 
+    position: relative;
+}
+.body h3{
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.follow img{
+    height: 30px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.online a{
+    display: block;
+}
+
+.online div{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.follow div{
+    margin-top: 10px;
+}
+.follow img{
+    margin-right: 10px;
+}
+
+footer p{
+    text-align: center;
+    background-color: rgb(0, 107, 189);
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0rem;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
