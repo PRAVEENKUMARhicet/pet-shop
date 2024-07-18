@@ -1,8 +1,9 @@
 body{
-    background-image: url(assest/login-background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.4)),url(assest/login-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 92vh;
 }
 
 .container{
